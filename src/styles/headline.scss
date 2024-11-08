@@ -1,0 +1,13 @@
+.headline {
+	display: inline-block;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: calc(var(--vertical-space-unit)*2);
+	color: var(--color-text-secondary-negative);
+	background-color: var(--color-background-primary-negative);
+
+	h1 {
+		font-family: var(--font-familySansMedium);
+		font-weight: var(--font-weightMedium);
+	}
+}

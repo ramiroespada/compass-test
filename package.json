@@ -1,0 +1,23 @@
+{
+  "name": "calendar-take-home",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "csstools": "^0.1.5",
+    "postcss-custom-media": "^11.0.5",
+    "postcss-nesting": "^13.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@csstools/postcss-global-data": "^3.0.0",
+    "@types/react": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "sass-embedded": "^1.80.6",
+    "vite": "^5.2.0"
+  }
+}

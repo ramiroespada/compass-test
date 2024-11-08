@@ -1,0 +1,10 @@
+header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	padding-top: calc(var(--vertical-space-unit)*4);
+	padding-bottom: calc(var(--vertical-space-unit)*2);
+	color: var(--color-text-secondary-negative);
+	background-color: var(--color-background-primary-negative);
+	z-index: 1;
+}

@@ -1,0 +1,12 @@
+body {
+	position: relative;
+	width: 100vw;
+	height: auto;
+	margin: 0;
+	background-color: var(--color-background-primary);
+	color: var(--color-text-primary);
+}
+
+.container {
+	padding: 0 var(--grid-margin);
+}

@@ -1,0 +1,33 @@
+.card-info {
+	padding: var(--card-padding);
+
+	&-fav {
+		text-align: right;
+
+		.star {
+			fill: var(--color-card-background-secondary);
+		}
+
+		.star-selected {
+			fill: var(--color-text-secondary-negative);
+
+		}
+
+	}
+
+	&-price {
+		color: var(--color-text-primary);
+		padding-bottom: calc(var(--vertical-space-unit) * 0.5);
+		font-size: 1.25rem;
+		font-family: var(--font-familySansBold);
+		font-weight: var(--font-weightBold);
+	}
+
+	&-caption {
+		color: var(--color-text-secondary);
+	}
+
+	&-location {
+		color: var(--color-text-tertiary);
+	}
+}

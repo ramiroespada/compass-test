@@ -1,0 +1,55 @@
+@font-face {
+	font-family: Compass Sans;
+	font-style: normal;
+	font-weight: 400;
+	font-display: fallback;
+	src: url(../../src/assets/fonts/compass-sans.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: Compass Sans Bold;
+	font-style: normal;
+	font-weight: 400;
+	font-display: fallback;
+	src: url(../../src/assets/fonts/compass-sans-bold.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: Compass Sans Medium;
+	font-style: normal;
+	font-weight: 400;
+	font-display: fallback;
+	src: url(../../src/assets/fonts/compass-sans-medium.ttf) format("truetype")
+}
+
+
+:root {
+	--font-familySans: "Compass Sans", serif;
+	--font-familySansMedium: "Compass Sans Medium", serif;
+	--font-familySansBold: "Compass Sans Bold", serif;
+	--font-familyLegible: "Open Sans", Helvetica, Arial, sans-serif;
+	--font-familySerif: "Compass Serif", Times, "Times New Roman", serif;
+	--font-weightRegular: 400;
+	--font-weightMedium: 500;
+	--font-weightBold: 700;
+	--font-weightSemiBold: 600
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-family: var(--font-familySans);
+}
+
+
+.noLigatures {
+	font-variant-ligatures: none
+}
+
+.noFontSmoothing {
+	-webkit-font-smoothing: auto;
+	-moz-osx-font-smoothing: auto;
+	-webkit-font-smoothing: auto;
+}

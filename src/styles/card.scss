@@ -1,0 +1,8 @@
+.listing-card {
+	position: relative;
+	display: inline-flex;
+	flex-direction: column;
+	border-radius: var(--card-border-radius);
+	background-color: var(--color-card-background-primary);
+	overflow: hidden;
+}
